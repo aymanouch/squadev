@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>squadev</title>
+    <!-- add some favicon -->
+    <link rel="android-chrome" sizes="192x192" href="./image/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./image/favicon/site.webmanifest">
     <!-- add the stylesheet files -->
        <!-- add the font family links  -->
        <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,15 +29,15 @@
                      <div class="logo">Squadev</div>
                      <div class="links-page" id="link-list">
                          <ul>
-                             <li><a href="#">Web</a></li>
-                             <li><a href="#">Strategy</a></li>
-                             <li><a href="#">Services</a></li>
-                             <li><a href="#">About</a></li>
-                             <li><a href="#">why work width us?</a></li>
-                             <li class="last-btn-link"><a href="#">Let's work together</a></li>
+                             <li><a href="#" data-scroll="herosection" class="linksTop">Web</a></li>
+                             <li><a href="#" data-scroll="strategy" class="linksTop">Strategy</a></li>
+                             <li><a href="#" data-scroll="services" class="linksTop">Services</a></li>
+                             <li><a href="#" data-scroll="herosection" class="linksTop">About</a></li>
+                             <li><a href="#" data-scroll="work-together" class="linksTop">why work width us?</a></li>
+                             <li class="last-btn-link"><a href="#" class="linksTop" data-scroll="contact">Let's work together</a></li>
                          </ul>
                      </div>
-                     <div class="last-btn"><a href="#">Let's work together</a></div>
+                     <div class="last-btn"><a href="#" class="linksTop" data-scroll="contact">Let's work together</a></div>
                      <div class="controller-icon" id="controller-icon">
                              <div></div>
                              <div></div>
@@ -47,9 +52,8 @@
                                let's talk<br /> <span>Web</span></h1>
                        </div>
                        <div class="para-container">
-                           <p class="paragraph-typo">
-                            Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business
+                           <p class="paragraph-typo center-elements">
+                            web the key to grow up your business and have flexibility to get costumers from any place in the word web is your future
                            </p>
                        </div>
                    </div>
@@ -59,9 +63,8 @@
                        </div>
                        <div class="big-paragraph">
                            <p>
-                            Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business.
+                            Hi the most company and agency even the famous in social media have a website for in order to their customers can get to know them.
+                            with a website you can share any type of information, Work schedule, prices, contact information and more ...
                            </p>
                        </div>
                    </div>
@@ -70,7 +73,7 @@
    </header>
 
    <!-- start the strategy section  -->
-   <section class="strategy">
+   <section class="strategy" id="strategy">
            <div class="parent-container-stra__grid">
                <div class="sm-pargraph">
                    <p class="paragraph-typo">
@@ -79,29 +82,27 @@
                    </p>
                </div>
                <div class="flex-container-paragraph center-right">
-                    <p class="paragraph-typo">Here will go a small intro paragraph that talks about the web
-                        and its uses to grow up your business Here will go a small intro paragraph that talks about the web
-                        and its uses to grow up your business.
+                    <p class="paragraph-typo">
+                        Hiring a web developer will give you the best web tools,
+                        such as hosting and domain management.
+                        Also, a web developer will run a site speed test after launching your site to assure a fast site for the users.
                     </p>
                     <div class="flex-items-paragraph">
                         <h3>/01</h3>
                         <p class="paragraph-typo"> 
-                            Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business Here will go a small intro paragraph that talks about the web.
+                            Building a website takes time. It is not a simple/easy process since you have to do extended planning of how your site is going to be laid out, the design that you are going to use, and the actual development of all its functionality. 
                         </p>
                     </div>
                     <div class="flex-items-paragraph">
                         <h3>/02</h3>
                         <p class="paragraph-typo"> 
-                            Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business Here will go a small intro paragraph that talks about the web.
+                            In the process of building a website, a professional web developer will investigate the competition first. The developer will then develop a great design and functionality that could be in direct competition with the most striking sites in the industry.
                         </p>
                     </div>
                     <div class="flex-items-paragraph">
                         <h3>/03</h3>
                         <p class="paragraph-typo"> 
-                            Here will go a small intro paragraph that talks about the web
-                            and its uses to grow up your business Here will go a small intro paragraph that talks about the web.
+                            Search engine optimization is a key feature that website developers must be aware of. Integrating your site through search rankings is apart of the web development process and something a developer would know how to do. This will help your site become compatible with the latest SEO techniques.
                         </p>
                     </div>
                </div>
@@ -125,10 +126,10 @@
   
 
 <!-- start the services section  -->
- <section class="services">
+ <section class="services" id="services">
       <div class="services-container">
           <div class="head-services">
-              <p class="center-left paragraph-typo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita.</p>
+              <p class="center-left paragraph-typo">You can know more about our services and what we can do for you.</p>
               <div ><h1 class="big-title__section">Services</h1></div>
           </div>
           <div class="services-items">
@@ -137,7 +138,10 @@
                   <div class="num-serv">/01</div>
                   <div class="descrip-serv">
                       <h3>web development</h3>
-                      <p class="paragraph-typo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dolore exercitationem ducimus blanditiis, commodi adipisci enim distinctio nesciunt!</p>
+                      <p class="paragraph-typo">
+                          we can create for you using a new tools the most creative website for your business or your portfolio,
+                          the website will be responsive for many screens.
+                      </p>
                       <a href="#">Let's work together</a>
                   </div>
                   <div class="image-link">
@@ -148,7 +152,9 @@
               <div class="item-serv">
                 <div class="num-serv">/02</div>
                 <div class="descrip-serv">
-                    <p class="paragraph-typo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dolore exercitationem ducimus blanditiis, commodi adipisci enim distinctio nesciunt!</p>
+                    <p class="paragraph-typo">
+                        we can design for you the best design that it can make your idea in the great vision, Impress your visitors and customers. 
+                    </p>
                 </div>
                 <div class="image-link">
                     <a href='#' class="link-serv">more information</a>
@@ -158,7 +164,7 @@
             <div class="item-serv">
                 <div class="num-serv">/03</div>
                 <div class="descrip-serv">
-                    <p class="paragraph-typo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dolore exercitationem ducimus blanditiis, commodi adipisci enim distinctio nesciunt!</p>
+                    <p class="paragraph-typo">we deploy your site in the most powerful platform.</p>
                     
                 </div>
                 <div class="image-link">
@@ -169,7 +175,7 @@
             <div class="item-serv">
                 <div class="num-serv">/04</div>
                 <div class="descrip-serv">
-                    <p class="paragraph-typo">Lorem ipsuUt dolore exercdi adipisci enim distinctio nesciunt!</p>
+                    <p class="paragraph-typo">We stay with you until you make sure your site is ready and working according to your vision</p>
                 </div>
                 <div class="image-link">
                     <a href='#' class="link-serv">more information</a>
@@ -180,8 +186,8 @@
 
       <div class="services-image__container">
           <div class="text-paragraph center-elements">
-              <p class="paragraph-typo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-              <p class="paragraph-typo">Lorem ipsum dolor sit amet consectetur.</p>
+              <p class="paragraph-typo">we are ready for work with you.</p>
+              <p class="paragraph-typo">you can contact us any time you want our services.</p>
           </div>
           <div class="image-grid__container">
               <div><img alt="web develpment" src="image/gall2.jpg" /></div>
@@ -194,24 +200,23 @@
 
 
  <!-- let s work together section  -->
- <section class="work-together">
+ <section class="work-together" id="work-together">
      <div class="together-title">
          <h1>let's work <span>together</span></h1>
      </div>
      <div class="together-text center-elements">
          <div class="first-text">
-             <p class="paragraph-typo">Lorem ipsum dolor sit amet.</p>
-             <p class="paragraph-typo">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+             <p class="paragraph-typo">We excited to work with you.</p>
+             <p class="paragraph-typo">even you don't work with us right now or just want ask us more questions.</p>
          </div>
          <div class="second-text">
             <p class="paragraph-typo">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga labore vel dolore accusamus,
-               mollitia quisquam est dolor ex quaerat, neque quis corrupti voluptates, consequatur quasi?
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga labore vel dolore accusamus,
-               mollitia quisquam est dolor ex quaerat, neque quis corrupti voluptates, consequatur quasi?
+               we are very happy to work with you and help you to make your dreams come true,
+               and To be able to put yourself on the web the first thing should be doing if you want to grow up your business and let other know who you are is have a website,
+               if like the idea send us a email or call us.
             </p>
             <div class="link">
-                <a href="#">Let's work together</a>
+                <a href="#" class="linksTop" data-scroll="contact">Let's work together</a>
             </div>
         </div>
      </div>
@@ -221,17 +226,17 @@
      </div>
  </section>
 
- <footer class="center-elements">
+ <footer class="center-elements" id="contact">
      <div class="footer-head">
          <div class="link-phone__container">
-             <h1><a href="#">aymanouchedih000@gmail.com</a></h1>
-             <h1><a href="#">0634073417</a></h1>
+             <h1><a href="mailto:aymanouchedih000@gmail.com?subject=Mail from Our Site">aymanouchedih000@gmail.com</a></h1>
+             <h1><a href="tel:212634074517">0634073417</a></h1>
          </div>
          <div class="link-footer__container">
              <ul>
-                 <li><a href="#">home</a></li>
-                 <li><a href="#">Services</a></li>
-                 <li><a href="#">Cases</a></li>
+                 <li><a href="#" data-scroll="herosection" class="linksTop">web</a></li>
+                 <li><a href="#" data-scroll="strategy" class="linksTop">strategy</a></li>
+                 <li><a href="#" data-scroll="services" class="linksTop">Services</a></li>
                  <li><a href="#">About</a></li>
                  <li><a href="#">Why us?</a></li>
              </ul>
@@ -249,7 +254,7 @@
      </div>
      <div class="foot-head">
          <div class="copy paragraph-typo">all rights reserved &copy; Squadev 2021</div>
-         <div class="date paragraph-typo">wednesday 16:31</div>
+         <div class="date paragraph-typo" id="lastDate">wednesday 16:31</div>
      </div>
      <div class="scroll-top" id="scrollTop"><i class="fas fa-chevron-up"></i></div>
  </footer>
